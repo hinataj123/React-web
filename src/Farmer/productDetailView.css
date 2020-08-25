@@ -1,0 +1,56 @@
+.o {
+    margin-top: 40px;
+ 
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+.p {
+    width: 300px;
+    height: 50px;
+    background: white;
+    color: black;
+    text-align: center;
+    justify-self: center;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid black;
+    
+}
+.p:hover{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+.img-magnifier-container {
+    position: relative;
+  }
+  
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
